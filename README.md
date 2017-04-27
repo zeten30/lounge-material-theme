@@ -1,2 +1,5 @@
-# lounge-material-theme
-Custom theme for Lounge IRC (https://github.com/thelounge/lounge) client using monospace fonts and material colors
+# Material theme for Lounge IRC client
+
+Theme using monospace fonts and material colors.
+
+![Theme preview](https://raw.githubusercontent.com/zeten30/lounge-material-theme/master/theme-preview.png)
