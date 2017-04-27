@@ -1,0 +1,453 @@
+/*
+Material theme for The Lounge.
+(Based on Zenburn theme: https://github.com/japesinator)
+*/
+body {
+	background: #ffffff;
+	color: #212121;
+}
+
+#chat .sidebar,
+#main,
+#windows .chan,
+#windows .window {
+	background: #ffffff;
+}
+
+#windows #form .input,
+#windows .header .topic,
+.messages .msg,
+.sidebar {
+	font-family: inherit;
+	font-size: 13px;
+}
+
+#connect .title,
+#settings,
+#sign-in {
+	color: #455a64;
+}
+
+#connect .opt,
+#settings,
+#sign-in {
+	color: #212121;
+}
+
+#sidebar {
+	background: #212121;
+	margin-bottom: -3px;
+}
+
+#sidebar .chan .name:after {
+	background: linear-gradient(to right, rgba(33,33,33,0) 0%, #212121 100%);
+}
+
+#sidebar .lobby span.name {
+	color: #009688;
+}
+
+#sidebar div.active {
+	font-weight: bold;
+}
+
+#sidebar div.active span.name {
+	color: #fffde7;
+}
+
+#footer {
+	background: #212121;
+	border-top: 1px solid #212121;
+}
+
+#chat .count {
+	background-color: #e0e0e0;
+}
+
+#chat .search {
+	color: #455a64;
+	padding: 15px 16px;
+}
+/* Borders */
+#chat .from,
+#chat .sidebar,
+#chat .user-mode:before,
+#windows .header {
+	border-color: #e0e0e0;
+}
+/* User list */
+#chat .user-mode {
+	color: #212121;
+}
+/* Nicknames */
+#chat .user {
+	color: #004d40;
+}
+
+#chat .user:hover {
+	color: #212121;
+}
+
+#chat.colored-nicks .user.color-1 {
+	color: #9c27b0;
+}
+
+#chat.colored-nicks .user.color-2 {
+	color: #33691e;
+}
+
+#chat.colored-nicks .user.color-3 {
+	color: #2962ff;
+}
+
+#chat.colored-nicks .user.color-4 {
+	color: #6a1b9a;
+}
+
+#chat.colored-nicks .user.color-5 {
+	color: #bf360c;
+}
+
+#chat.colored-nicks .user.color-6 {
+	color: #d84315;
+}
+
+#chat.colored-nicks .user.color-7 {
+	color: #5d4037;
+}
+
+#chat.colored-nicks .user.color-8 {
+	color: #546e7a;
+}
+
+#chat.colored-nicks .user.color-9 {
+	color: #006064;
+}
+
+#chat.colored-nicks .user.color-10 {
+	color: #0d47a1;
+}
+
+#chat.colored-nicks .user.color-11 {
+	color: #304ffe;
+}
+
+#chat.colored-nicks .user.color-12 {
+	color: #6200ea;
+}
+
+#chat.colored-nicks .user.color-13 {
+	color: #c51162;
+}
+
+#chat.colored-nicks .user.color-14 {
+	color: #b71c1c;
+}
+
+#chat.colored-nicks .user.color-15 {
+	color: #311b92;
+}
+
+#chat.colored-nicks .user.color-16 {
+	color: #827717;
+}
+
+#chat.colored-nicks .user.color-17 {
+	color: #dd2c00;
+}
+
+#chat.colored-nicks .user.color-18 {
+	color: #689f38;
+}
+
+#chat.colored-nicks .user.color-19 {
+	color: #6d4c41;
+}
+
+#chat.colored-nicks .user.color-20 {
+	color: #4e342e;
+}
+
+#chat.colored-nicks .user.color-21 {
+	color: #004d40;
+}
+
+#chat.colored-nicks .user.color-22 {
+	color: #616161;
+}
+
+#chat.colored-nicks .user.color-23 {
+	color: #558b2f;
+}
+
+#chat.colored-nicks .user.color-24 {
+	color: #00796b;
+}
+
+#chat.colored-nicks .user.color-25 {
+	color: #37474f;
+}
+
+#chat.colored-nicks .user.color-26 {
+	color: #2e7d32;
+}
+
+#chat.colored-nicks .user.color-27 {
+	color: #d84315;
+}
+
+#chat.colored-nicks .user.color-28 {
+	color: #607d8b;
+}
+
+#chat.colored-nicks .user.color-29 {
+	color: #283593;
+}
+
+#chat.colored-nicks .user.color-30 {
+	color: #4a148c;
+}
+
+#chat.colored-nicks .user.color-31 {
+	color: #c51162;
+}
+
+#chat.colored-nicks .user.color-32 {
+	color: #1b5e20;
+}
+
+#chat a {
+	color: #8c8cbc;
+}
+
+#chat button:hover {
+	opacity: 1;
+}
+/* Increase contrast of some IRC colors */
+.irc-fg2 {
+	color: #01579b;
+}
+
+.irc-fg5 {
+	color: #6a1b9a;
+}
+
+.irc-fg12 {
+	color: #006064;
+}
+/* Message form */
+#form {
+	background: #212121;
+	border-color: #424242;
+}
+
+#windows #form .input {
+	background-color: #ffffff !important;
+	border-color: #e0e0e0 !important;
+	color: #212121 !important;
+}
+
+#form #nick {
+	background: #ffffff;
+	color: #212121;
+}
+
+#form #submit:hover {
+	opacity: 1;
+}
+/* Buttons */
+#chat .show-more-button {
+	background: #ffffff;
+	border-color: #e0e0e0;
+	color: #212121;
+}
+
+#chat .show-more-button:hover {
+	color: #424242;
+}
+
+#chat .header {
+	color: #424242;
+}
+/* Notification dot on the top right corner of the menu icon */
+#viewport .lt:after {
+	border-color: #ffffff;
+}
+
+#chat .unread-marker,
+.date-marker {
+	opacity: 1;
+}
+
+#chat .unread-marker-text:before {
+	background-color: #ffffff;
+}
+
+#chat .date-marker:before {
+	border-color: #546e7a;
+}
+
+#chat .date-marker-text:before {
+	background-color: #ffffff;
+	color: #546e7a;
+}
+/* Setup text colors */
+#chat .msg {
+	color: #f57f17;
+}
+
+#chat .message {
+	color: #212121;
+}
+
+#chat .self .text {
+	color: #424242;
+}
+
+#chat .channel .highlight,
+#chat .channel .highlight .from,
+#chat .channel .highlight .text,
+#chat .error,
+#chat .error .from {
+	color: #dd2c00;
+}
+
+#chat .unhandled .from {
+	color: #aaa;
+}
+
+#chat .msg.quit .from button,
+#chat .msg.quit .time {
+	color: #4527a0 !important;
+}
+
+#chat .msg.topic {
+	color: #212121;
+}
+
+#chat .msg.join .from button,
+#chat .msg.join .time {
+	color: #455a64 !important;
+}
+/* Embeds */
+#chat .toggle-button,
+#chat .toggle-content {
+	background: #616161;
+	color: #212121;
+}
+
+#chat .toggle-content img {
+	float: left;
+	margin-right: 0.5em;
+}
+
+#chat .toggle-content .body {
+	color: #424242;
+}
+
+.btn-reconnect {
+	background: #dd2c00;
+	color: #fff;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+}
+/* Form elements */
+#chat-container::-moz-placeholder {
+	color: #424242;
+	opacity: 0.5;
+}
+
+#chat-container::-webkit-input-placeholder {
+	color: #424242;
+	opacity: 0.5;
+}
+
+#chat-container:-ms-input-placeholder {
+	color: #424242;
+	opacity: 0.5;
+}
+
+#chat .time {
+	color: #9e9e9e;
+}
+/* End form elements */
+/* Better CSS box */
+#user-specified-css-input {
+	font-family: monospace;
+	height: 400px;
+}
+/* Change everything's font */
+#chat .messages,
+#chat .search,
+#form #input,
+#form #submit,
+#windows .header,
+#windows .header .button,
+#windows .header .title,
+body {
+	font-family: monospace;
+}
+/* Compact sidebar */
+#sidebar .networks {
+	padding: 6px 2px 6px 30px;
+}
+
+#sidebar .network {
+	margin-bottom: 10px;
+}
+
+#sidebar .chan {
+	margin-right: 20px;
+	padding: 4px 5px;
+	width: auto;
+	border-bottom: #212121 0 solid;
+}
+
+#sidebar .chan:before {
+	display: none;
+}
+
+#sidebar .chan .badge {
+	margin-top: -1px;
+	right: 5px !important;
+}
+
+#sidebar .chan .close {
+	top: 2px;
+	right: -5px;
+}
+/* Form & Input */
+div.input {
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#nick {
+	border-radius: 0 !important;
+	background: #e0e0e0 !important;
+	margin: 0;
+	padding: 0;
+}
+
+/* User sidebar */
+div.count {
+	background: #ffffff !important;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/* Chat links */
+#chat a {
+  color: #1a237e;
+}
+#chat a:hover {
+  color: #303f9f;
+}
