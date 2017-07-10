@@ -223,6 +223,11 @@ body {
 #chat button:hover {
 	opacity: 1;
 }
+
+span.from:after {
+        background: linear-gradient(to right, rgba(255,255,255,0) 0%, #ffffff 100%) !important;
+}
+
 /* Increase contrast of some IRC colors */
 .irc-fg2 {
 	color: #01579b;
