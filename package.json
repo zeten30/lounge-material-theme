@@ -1,0 +1,25 @@
+{
+  "name": "thelounge-theme-material",
+  "version": "1.0.0",
+  "description": "Custom theme for The Lounge using monospace fonts and material colors",
+  "main": "package.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeten30/lounge-material-theme.git"
+  },
+  "keywords": [
+    "thelounge",
+    "thelounge-theme"
+  ],
+  "author": "Milan Zink",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/zeten30/lounge-material-theme/issues"
+  },
+  "homepage": "https://github.com/zeten30/lounge-material-theme#readme",
+  "thelounge": {
+    "css": "material.css",
+    "name": "Material",
+    "type": "theme"
+  },
+}
