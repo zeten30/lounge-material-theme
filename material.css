@@ -14,14 +14,6 @@ body {
 	background: #ffffff;
 }
 
-#windows #form .input,
-#windows .header .topic,
-.messages .msg,
-.sidebar {
-	font-family: inherit;
-	font-size: 13px;
-}
-
 #connect .title,
 #settings,
 #sign-in {
@@ -72,6 +64,7 @@ body {
 #chat .from,
 #chat .sidebar,
 #chat .user-mode:before,
+#chat .user-mode::before,
 #windows .header {
 	border-color: #e0e0e0;
 }
@@ -225,7 +218,7 @@ body {
 }
 
 span.from:after {
-        background: linear-gradient(to right, rgba(255,255,255,0) 0%, #ffffff 100%) !important;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, #ffffff 100%) !important;
 }
 
 /* Increase contrast of some IRC colors */
