@@ -26,6 +26,24 @@ body {
 	color: #212121;
 }
 
+#sidebar .lobby button.collapse-network{
+  padding: 0;
+  margin: 0;
+  width: 20px;
+}
+
+#sidebar .networks {
+  padding-left: 0.2em;
+}
+
+#sidebar .channel {
+  padding-left: 20px;
+}
+
+#sidebar .not-secure-icon {
+  opacity: 0.5;
+}
+
 #sidebar {
 	background: #212121;
 	margin-bottom: -3px;
