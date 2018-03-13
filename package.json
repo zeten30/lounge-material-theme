@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-material",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Custom theme for The Lounge using monospace fonts and material colors",
   "main": "package.json",
   "repository": {
