@@ -430,12 +430,18 @@ div.input {
   border: 0;
 }
 
-#nick {
-  border-radius: 0 !important;
+#form #nick {
+  display: inline !important;
   background: #e0e0e0 !important;
-  margin: 0;
-  padding: 0;
+  color: #546e7a !important;
+  margin: 0 !important;
+  line-height: 2.6em !important;
 }
+
+#form .input{
+  margin: 0 !important;
+}
+
 /* User sidebar */
 div.count {
   background: #ffffff !important;
