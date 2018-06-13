@@ -339,7 +339,7 @@ span.from:after {
 /* Embeds */
 #chat .toggle-button,
 #chat .toggle-content {
-  background: #616161;
+  background: transparent;
   color: #212121;
 }
 
